@@ -1,8 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-rows = 10;
-cols = 10;
 
 def mandelbrot(c, z):
    global iterations = 0;
