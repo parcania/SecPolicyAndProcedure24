@@ -1,6 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+rows = 10
+cols = 10
+iterations = 100
 
 def mandelbrot(c, z):
    global iterations ;
@@ -22,12 +25,15 @@ def mandelbrot_set(x, y):
          m[i, j] = count
    return m
 
-creating our x and y arrays
+#creating our x and y arrays
 x = np.linspace(-2, 1, rows)
 y = np.linspace(-1, 1, cols)
-create our mandelbrot set
+
+#create our mandelbrot set
 m = mandelbrot_set(x, y) 
-plot the set (best colors: binary, hot, bone, magma)
+
+#plot the set (best colors: binary, hot, bone, magma)
+
 plt.imshow(m.T, cmap = "magma")
 plt.axis("off")
 plt.show()
