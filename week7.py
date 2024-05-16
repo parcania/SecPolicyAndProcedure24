@@ -27,8 +27,8 @@ def mandelbrot_set(x, y):
 
 #creating our x and y arrays
 #I assumed we were only changing x an y, so that is what i did! 
-x = np.linspace(-1, 1, rows)
-y = np.linspace(-3, 1, cols)
+x = np.linspace( -4, 2, rows)
+y = np.linspace( 0, -1, cols)
 
 #create our mandelbrot set
 m = mandelbrot_set(x, y) 
@@ -43,6 +43,6 @@ plt.show()
 #I'm sure there is a more intuitive way to loop this 
 plt.imshow(m.T, cmap="magma")
 plt.axis("off")
-plt.savefig('mandelbrot_fractal_2.png')  # Save the plot as an image file
+plt.savefig('mandelbrot_fractal_10.png')  # Save the plot as an image file
 plt.show()
 
