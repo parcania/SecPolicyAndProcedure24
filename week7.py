@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 def mandelbrot(c, z):
-   global iterations = 0;
+   global iterations ;
    count = 0
    for a in range(iterations):
       z = z**2 + c
