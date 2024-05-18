@@ -1,4 +1,7 @@
-:V
+Samples created by Harlee H 
+Code found and used for educational purposes by Lohen K from code created by "its literally monique"
+https://github.com/itsliterallymonique/Mandelbrot-Set/blob/main/Mandelbrot%20Set.py
+Courtesy of Medium.com and google
 
 | image              | x-row     | y-col    | comment  |
 | ------------------ | --------- | -------- | -------- |
